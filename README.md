@@ -46,8 +46,6 @@ String weatherReport = owmApi.runWithZipcode("75080-3021");
 
 ## A Complete Example
 
-At a minimal:
-
 ```java
 import owmapi.OwmApi;
 
