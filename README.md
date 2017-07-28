@@ -2,7 +2,7 @@
 
 [![Release](https://img.shields.io/github/release/ronrihoo/Java-OpenWeatherMap-API/all.svg)](https://github.com/ronrihoo/Java-OpenWeatherMap-API/releases)
 
-An Internet Relay Chat API for Java.
+An OpenStreetMap API for Java.
 
 ## Setup
 
