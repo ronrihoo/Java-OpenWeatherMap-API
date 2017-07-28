@@ -1,0 +1,35 @@
+group 'owmapi'
+version '20170403'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'application'
+
+configurations {
+    extraLibs
+}
+
+jar {
+    baseName = 'owmapi'
+    version = '20170403'
+    mainClassName = 'owmapi.Main'
+    manifest {
+        attributes(
+                'Main-Class': 'owmapi.Main'
+        )
+    }
+    from {
+        configurations.extraLibs.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile files('/lib/jsonparser-20170403.jar');
+    extraLibs files('/lib/jsonparser-20170403.jar');
+    configurations.compile.extendsFrom(configurations.extraLibs)
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
