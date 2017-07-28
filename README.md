@@ -2,7 +2,7 @@
 
 [![Release](https://img.shields.io/github/release/ronrihoo/Java-OpenWeatherMap-API/all.svg)](https://github.com/ronrihoo/Java-OpenWeatherMap-API/releases)
 
-An OpenStreetMap API for Java.
+An OpenWeatherMap API for Java.
 
 ## Setup
 
