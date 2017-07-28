@@ -1,8 +1,8 @@
-# A light OpenWeatherMap API for Java
+# Java OpenWeatherMap API
 
 [![Release](https://img.shields.io/github/release/ronrihoo/Java-OpenWeatherMap-API/all.svg)](https://github.com/ronrihoo/Java-OpenWeatherMap-API/releases)
 
-An OpenWeatherMap API for Java.
+A light OpenWeatherMap API for Java.
 
 ## Setup
 
