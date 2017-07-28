@@ -35,7 +35,7 @@ OwmApi owmApi = new OwmApi();
 3. Set the OpenWeatherMap App ID by passing it as a string
 
 ```java
-ownApi.setAppId("OWM-App-ID-Here");
+owmApi.setAppId("OWM-App-ID-Here");
 ```
 
 4. Get weather report based on zipcode
